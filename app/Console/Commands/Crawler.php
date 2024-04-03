@@ -37,6 +37,9 @@ class Crawler extends Command
         $this->$function();
     }
  
+
+    // run 
+    // php artisan crawler:data --function=crawler
     public function crawler($page=1)
     { 
 
@@ -44,23 +47,5 @@ class Crawler extends Command
         $crawlerService->index();
     }
   
-
-//     1stkissmanga.io 
-// anime-planet.com
-// aquamanga.com 
-// mangabuddy.com 
-// mangaclash.com 
-// mangadex.org 
-// mangagg.com 
-// mangago.me 
-// mangakakalot.com 
-// manganato.com 
-// mangatx.com
-// mangaupdates.com 
-// manhuamanhwa.com
-// novelupdates.com
-// rawkuma.com 
-// s2manga.com 
-// topmanhua.com 
-// zinmanga.com
+ 
 }
